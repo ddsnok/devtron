@@ -1,12 +1,12 @@
 {
-  "name": "devtron",
-  "version": "1.0",
-  "manifest_version": 2,
-  "devtools_page": "static/devtron.html",
-  "content_scripts": [
-    {
-      "matches": ["*"],
-      "js": ["out/browser-globals.js"]
-    }
-  ]
+    "name": "devtron",
+    "version": "1.0",
+    "manifest_version": 2,
+    "devtools_page": "static/devtron.html",
+    "content_scripts": [
+        {
+        "matches": ["http://*"],
+        "js": ["out/browser-globals.js"]
+        }
+    ]
 }
